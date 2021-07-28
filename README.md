@@ -1,4 +1,4 @@
-# sample repo - output
+# sample repo - create code that can be used as a module
 
 ## Description
 This is a simple repo for learning Terraform outputs
@@ -18,13 +18,13 @@ This is a simple repo for learning Terraform outputs
 ### Clone the repo
 
 ```
-git clone https://github.com/viv-garot/tf-outputs
+git clone https://github.com/viv-garot/tf-modules
 ```
 
 ### Change directory
 
 ```
-cd tf-outputs
+cd tf-modules
 ```
 
 ### Run
@@ -39,6 +39,8 @@ _sample_
 
 ```
 terraform init
+Initializing modules...
+- my-module in module
 
 Initializing the backend...
 

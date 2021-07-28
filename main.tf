@@ -1,7 +1,11 @@
+module "my-module" {
+  source = "./module"
+}
+
 output "Alvaro" {
-  value = "El magnifico"
+  value = module.my-module.Alvaro
 }
 
 output "Alvarito" {
-  value = "El papito"
+  value = module.my-module.Alvarito
 }
