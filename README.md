@@ -1,7 +1,7 @@
 # sample repo - create code that can be used as a module
 
 ## Description
-This is a simple repo for learning Terraform outputs
+This is a simple repo for learning Terraform modules
 
 ## Pre-requirements
 
